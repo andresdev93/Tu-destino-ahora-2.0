@@ -1,0 +1,79 @@
+section.our-services .service-item {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 50px 30px;
+  }
+  
+  section.our-services .service-item .icon img {
+    max-width: 100%;
+  }
+  
+  section.our-services .service-item h4 {
+    font-size: 19px;
+    font-weight: 600;
+    color: #232323;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .our-services .left-content h4 {
+    font-size:  19px;
+    font-weight:  600;
+    color:  #232323;
+    margin-top: 0px;
+    margin-bottom:  25px;
+  }
+  
+  .our-services .left-content .blue-button {
+    margin-top: 25px;
+  }
+  
+  .down-services {
+    border-top: 1px solid #ddd;
+    margin-top: 60px;
+    padding-top: 60px;
+  }
+  .accordion li {
+    position: relative;
+  }
+  .accordion li a {
+    border: 1px solid #ddd;
+  }
+  .accordion li:last-child a {
+    
+  }
+  .accordion li p {
+    display: none;
+  }
+  .accordion a {
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    color: #232323;
+    user-select: none;
+    padding: 15px 20px;
+    text-decoration: none;
+  }
+  .accordion a:after {
+    width: 15px;
+    height: 15px;
+    background-color: #F18513;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    content: " ";
+    top: 22.5px;
+    transform: rotate(-45deg);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  .accordion p {
+    margin: 0px;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
